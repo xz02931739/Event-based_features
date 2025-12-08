@@ -124,18 +124,6 @@ Columns include for each stage prefix (`Wake_`, `Light_`, `Deep_`, `REM_`): `are
 	 - Matching `.npy` packs under `small_shhs1_spo2_pack/all/` containing `data`, `label`, `fs`
 2) Activate your environment and run a script, e.g. time features:
 
-```powershell
-.\.venv\Scripts\Activate.ps1
-python .\get_features_time.py
-Get-Content .\saved\features_time.csv | Select-Object -First 5
-```
-
-## Troubleshooting
-
-- "do not find the pack file": the script couldn’t load `shhs1-<nsrrid>.npy` from `pack_dir`; check IDs and paths
-- Empty stage blocks: if a subject has no epochs for a stage, stage-specific metrics return 0 (by design)
-- NaNs in outputs: indicate missing input or failure to compute a metric for that subject
-- LZ complexity: requires the `lempel-ziv-complexity` package; ensure it’s installed
 
 ## Notes
 
