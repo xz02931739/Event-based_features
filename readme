@@ -1,4 +1,4 @@
-# TMBE_review — SpO2 Feature Extraction and Event-Based Metrics
+# Event-based_features — SpO2 Feature Extraction and Event-Based Metrics
 
 This repository extracts clinically relevant features from overnight SpO2 signals, including time-domain, frequency-domain, non-linear, and event-based features (overall and stratified by sleep stage). It consumes packed .npy files per subject and outputs CSVs ready for downstream analysis or modeling.
 
