@@ -131,3 +131,11 @@ Columns include for each stage prefix (`Wake_`, `Light_`, `Deep_`, `REM_`): `are
 - All scripts preserve the input `level` column to simplify downstream classification experiments
 - Utility functions for dataset splitting/scaling are available in `utils/split_5fd.py` and `utils/cm_self.py`
 
+## Ciatation
+
+If the work helps you, please cite our publication. 
+
+X. Zhang, F. Li, Y. Fang, L. Zhong, K. Ding, H. Chen, and F. Cong, “Novel Event-Based Peripheral Oxygen Saturation Metrics Provide Complementary Information for OSA Classification,” IEEE Trans. Biomed. Eng., pp. 1–9, 2026, doi: 10.1109/TBME.2026.3665589
+
+url: https://ieeexplore.ieee.org/document/11397772
+
